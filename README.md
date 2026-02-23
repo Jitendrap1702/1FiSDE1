@@ -49,13 +49,13 @@ MONGO_URI=your_mongodb_connection_string
 ```
 -> Frontend server will be running on http://localhost:5173
 
-## 🛠️ Technologies Used
+# 🛠️ 2. Technologies Used
 - **Frontend**: React, Tailwind CSS, React Router, Axios, Vite
 - **Backend**: Node.js, Express.js, MongoDB, Mongoose, slugify(for SEO-friendly URLs)
 - other dependencies include cors, dotenv, and nodemon for development.
 - other tools include **Postman** for API testing and **Git** for version control.
 
-## 📁 Project Structure
+# 📁 3. Project Structure
 ```
 ├── backend
 │   ├── controllers
@@ -74,7 +74,7 @@ MONGO_URI=your_mongodb_connection_string
 └── README.md
 ```
 
-## API Endpoints
+# 4. API Endpoints
 - **GET /api/products**: Fetch all products
 Example Response:
 ```json
@@ -230,9 +230,9 @@ Example Response:
 
 - **POST /api/products**: Create a new product
 - **PUT /api/products/:slug**: Update product details
-- **DELETE /api/products/:slug**: Delete a 
+- **DELETE /api/products/:slug**: Delete a product
 
-## Database Schema
+# 5. Database Schema
 ```javascript
 const productSchema = new mongoose.Schema({
     name: { type: String, required: true },
