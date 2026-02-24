@@ -15,8 +15,8 @@ const app = express();
 // ✅ Enable CORS
 // This allows our frontend (running on a different port) to communicate with this backend without CORS issues.
 app.use(cors({
-  origin: "http://localhost:5173",
-//   origin: "", // Allow all origins (for development purposes). In production, specify the frontend URL for better security.
+  origin: "*",
+  // origin: "*", // Allow all origins (for development purposes). In production, specify the frontend URL for better security.
   credentials: true
 }));
 
