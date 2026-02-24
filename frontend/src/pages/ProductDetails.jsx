@@ -156,7 +156,7 @@ const ProductDetails = () => {
             key={color._id}
             onClick={() => {
               setSelectedColor(color)
-              setSelectedImage(color.images[0]);
+              // setSelectedImage(color.images[0]);
               setCurrentIndex(0); // reset to first image of the newly selected color
             }}
             className="relative group"
